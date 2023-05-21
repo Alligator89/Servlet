@@ -4,14 +4,6 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-<!--  <servlet>-->
-<!--    <servlet-name>AddAge</servlet-name>-->
-<!--    <servlet-class>age.AddAge</servlet-class>-->
-<!--  </servlet>-->
-<!--  <servlet-mapping>-->
-<!--    <servlet-name>AddAge</servlet-name>-->
-<!--    <url-pattern>/add</url-pattern>-->
-<!--  </servlet-mapping>-->
   <servlet>
     <servlet-name>AddMinsk</servlet-name>
     <servlet-class>com.time.MinskServlet</servlet-class>
@@ -37,28 +29,4 @@
     <servlet-name>AddBeijing</servlet-name>
     <url-pattern>/beijing</url-pattern>
   </servlet-mapping>
-<!--  <servlet>-->
-<!--    <servlet-name>Upload</servlet-name>-->
-<!--    <servlet-class>com.loadbook.Upload</servlet-class>-->
-<!--  </servlet>-->
-<!--  <servlet-mapping>-->
-<!--    <servlet-name>Upload</servlet-name>-->
-<!--    <url-pattern>/book</url-pattern>-->
-<!--  </servlet-mapping>-->
-<!--  <servlet>-->
-<!--    <servlet-name>Load</servlet-name>-->
-<!--    <servlet-class>com.loadbook.Load</servlet-class>-->
-<!--  </servlet>-->
-<!--  <servlet-mapping>-->
-<!--    <servlet-name>Load</servlet-name>-->
-<!--    <url-pattern>/load-book</url-pattern>-->
-<!--  </servlet-mapping>-->
-<!--  <servlet>-->
-<!--    <servlet-name>iswork</servlet-name>-->
-<!--    <servlet-class>com.loadbook.IsWork</servlet-class>-->
-<!--  </servlet>-->
-<!--  <servlet-mapping>-->
-<!--    <servlet-name>iswork</servlet-name>-->
-<!--    <url-pattern>/application</url-pattern>-->
-<!--  </servlet-mapping>-->
-</web-app>
+  </web-app>
